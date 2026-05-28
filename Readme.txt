@@ -1,86 +1,86 @@
 # Temporal Glitch
 
-**Temporal Glitch** is a time-anomaly hidden object puzzle game developed by **Tomislav Jurčević (Jura)** using the **Godot Engine**.
+Temporal Glitch is a hidden object / anomaly puzzle game developed in the Godot Engine by **Tomislav Jurčević (Jura)**.
 
-The game places players into distorted timelines where objects from the wrong eras have appeared throughout history. Players must quickly identify and eliminate anomalies before time completely collapses.
+The game is focused on distorted timelines where objects from completely different eras begin appearing throughout history. The player must locate and remove these anomalies before the timeline fully collapses.
 
 ---
 
-# 🎮 Game Concept
+# About the Game
 
-A catastrophic experiment by **Dr. Chrono** shattered the timeline, causing objects, technology, creatures, and artifacts from different eras to appear where they do not belong.
+A failed experiment by Dr. Chrono destabilized time itself.
 
-Players travel through multiple historical periods and search for anomalies hidden inside large illustrated scenes.
+Ancient civilizations, medieval kingdoms, and historical locations are now corrupted by objects and creatures that should not exist there. Players travel through different eras and search for anomalies hidden inside large illustrated scenes.
 
-The game combines:
+The gameplay combines:
 
-* hidden object gameplay
+* hidden object mechanics
+* fast reaction gameplay
 * time pressure
-* memory and observation mechanics
-* score systems
-* fast-paced puzzle elements
+* observation and memory
+* score optimization
 
 ---
 
-# 🧩 Core Gameplay Mechanics
+# Gameplay Features
 
-## ⏳ Time-Based Gameplay
+## Time-Based Levels
 
-Each level has a countdown timer.
+Every level includes a countdown timer.
+The player must find all anomalies before time expires.
 
-Players must find all anomalies before time runs out.
-
-Wrong clicks reduce remaining time and punish random tapping.
+Wrong clicks reduce the remaining time, preventing random guessing and forcing players to carefully observe the environment.
 
 ---
 
-## ❤️ Life System
+## Life System
 
 Players have limited attempts per level.
 
-After too many failed runs:
+If all attempts are lost:
 
-* GAME OVER is triggered
-* the level background darkens
-* the scene zooms out slightly to create dramatic tension
-
----
-
-## 🎯 Hidden Anomaly System
-
-Every level contains objects that do not belong to that historical era.
-
-Examples:
-
-* dinosaurs in ancient Egypt
-* modern sunglasses in medieval scenes
-* snowboards near pyramids
-* smartphones in ancient civilizations
+* the level ends with GAME OVER
+* the background becomes darker and blurred
+* the camera slightly zooms out for dramatic effect
 
 ---
 
-## 🧠 Difficulty Scaling
+## Historical Anomalies
 
-The game increases in complexity through:
+Each level contains objects that do not belong in that historical era.
 
-* smaller click areas
-* less visible anomalies
-* more visual distractions
-* shorter timers
-* denser environments
+Some examples include:
 
-Difficulty modes:
+* dinosaurs in Ancient Egypt
+* modern sunglasses in historical settings
+* smartphones hidden in old civilizations
+* futuristic objects appearing in medieval scenes
+
+The goal is to identify timeline corruption as quickly as possible.
+
+---
+
+# Difficulty System
+
+The game currently supports multiple difficulty modes:
 
 * Easy
 * Normal
 * Hard
 * Insane
 
+Difficulty affects:
+
+* available time
+* object visibility
+* reaction pressure
+* gameplay pacing
+
 ---
 
-# 🌍 Multi-Language Support
+# Multi-Language Support
 
-The game currently includes full translation support for:
+The game currently includes localization support for:
 
 * English
 * Croatian
@@ -91,129 +91,104 @@ The game currently includes full translation support for:
 * Chinese
 * Japanese
 
-All UI elements, menus, overlays, and gameplay texts are translated through a centralized localization system.
+All menus, overlays, gameplay text, and interface elements are translated through an internal localization system.
 
 ---
 
-# 🏆 Scoring System
+# Technical Information
 
-Players earn points through:
-
-* correct anomaly detection
-* remaining time bonuses
-* level completion performance
-
-Each level also stores:
-
-* personal best records
-* completion statistics
-* penalty tracking
-
----
-
-# 🎨 Visual Style
-
-Temporal Glitch uses:
-
-* illustrated historical scenes
-* exaggerated time distortions
-* cinematic overlays
-* animated UI transitions
-* dramatic completion screens
-
-The visual identity focuses on:
-
-* mystery
-* historical contrast
-* surreal humor
-* timeline corruption
-
----
-
-# 🔊 Audio
-
-The project includes:
-
-* background music
-* click sound effects
-* wrong-answer penalties
-* victory sounds
-* game over audio feedback
-
-Special thanks to royalty-free audio creators from Pixabay.
-
----
-
-# ⚙️ Technical Features
-
-Built with:
+Developed using:
 
 * Godot Engine 4
 * GDScript
-* custom scene architecture
-* reusable BaseLevel system
-* dynamic overlays
-* mobile touch support
+* custom reusable level systems
+* persistent score saving
 * Android export support
+* responsive fullscreen adaptation
+* mobile touch controls
 
-Implemented systems:
+Additional systems include:
 
-* level inheritance
-* score persistence
-* save configuration system
-* localization manager
-* audio manager
-* fullscreen adaptation
-* responsive UI scaling
+* animated UI overlays
+* record tracking
+* audio management
+* level progression
+* penalty system
+* scalable UI for multiple screen sizes
 
 ---
 
-# 📱 Platform
+# Audio & Visual Style
+
+The game uses illustrated environments mixed with surreal timeline corruption.
+
+Visual design focuses on:
+
+* atmosphere
+* historical contrast
+* visual confusion
+* anomaly discovery
+
+Audio includes:
+
+* background music
+* click feedback
+* penalty sounds
+* victory and game over effects
+
+Special thanks to royalty-free creators from Pixabay for music and sound resources.
+
+---
+
+# Platform
 
 Current target platform:
 
 * Android
 
-The project is currently in active development and has **not yet been officially published** on Google Play.
+The project is still in active development and has not yet been officially published.
 
 ---
 
-# 👨‍💻 Developer
+# APK Download Information
+
+Because of GitHub file size limitations, the Android APK build is uploaded in a split RAR archive format.
+
+The APK package is divided into two multiple parts and must be extracted together after download.
+
+---
+
+# Developer
 
 Created by:
 
 **Tomislav Jurčević (Jura)**
 Osijek, Croatia
 
-Game design, programming, concept, systems, gameplay direction, and implementation by Jura.
+Game design, programming, systems, gameplay mechanics, concept, and implementation by Jura.
 
 ---
 
-# 🚧 Project Status
+
+# Project Status
 
 Current state:
 
-* In Development
 * Playable prototype
-* Multiple completed levels
-* Android testing active
-* Gameplay systems functional
+* Multiple finished levels
+* Android testing in progress
+* Core gameplay systems completed
+* Continued development planned
 
-Future plans may include:
+Possible future additions:
 
-* additional historical eras
-* animated anomalies
-* improved AI distractions
+* more historical eras
+* additional anomaly mechanics
 * achievements
-* leaderboard systems
-* Steam release
-* Google Play publication
+* leaderboards
+* expanded soundtrack
+* Google Play release
 
 ---
 
-# 📌 Engine
-
-Made with:
-Godot Engine 4
-
-https://godotengine.org
+Made with Godot Engine, GDScript
